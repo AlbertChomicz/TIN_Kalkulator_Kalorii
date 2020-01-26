@@ -1,0 +1,113 @@
+#LEWY{
+  
+    width: 100%;
+   
+    display:block;
+    float: left;
+    padding: 10px;
+}
+
+.przycisk{
+    display: block;
+    float: left;
+    width: 100%;
+}
+.przycisk button{
+    height: 40px;
+    width: 80px;
+
+}
+.przycisk input{
+    height: 40px;
+    width: 60px;
+
+}
+.przycisk h3{
+
+    width: 30px;
+    font-size: 8px;
+}
+
+#label_wybierzprodukt{
+
+	text-align: left;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+#produkt_sort_select{
+    display:block;
+    width:100%;
+    float: left;
+    height: 40px;
+}
+
+#produkty_lista{
+    display:block;
+    float: left;
+    height: 300px;
+    width: 100%;
+}
+
+#lista_produktow{
+    width:100%;
+    height:100%;
+}
+
+
+
+#produkt_sortuj{
+    height: 40px;
+    width: 100px;
+    margin-left: 100px;
+    display: block;
+    float: left;
+}
+
+.przycisk2{
+    display:block;
+    float:left;
+    width:100%;
+    height: 40px
+}
+
+.przycisk2 input {
+    height: 30px;
+
+    width: 70%;
+}
+
+#sortuj_button{
+    height: 100%;
+    width: 100px;
+    float: right;
+
+}
+
+#wybierz_button{
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+#wybierz_button:hover{
+    font-size: 15px;
+    background-color: #323232;
+    border: 1px solid white;
+   
+}
+
+#wybierz_label_error{
+    display: block;
+    width: 180px;
+    height: 40px;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.error_hidden{
+    visibility: hidden;
+}

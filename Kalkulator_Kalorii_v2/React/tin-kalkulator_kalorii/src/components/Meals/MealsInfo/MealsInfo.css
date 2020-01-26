@@ -1,0 +1,82 @@
+#MEALSINFO_SRODKOWY{
+	display:block;
+	float:left;
+	width: 100%;
+	
+}
+
+.MEALSINFO_produkty_nazwa_wybranego_posilku h1{
+	font-size: 22px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.MEALSINFO_produkty{
+	width: 100%;
+	padding-top:10px;
+	grid-row: 2/9;
+	grid-column: 7/11;
+	text-align: left;
+
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+
+.MEALSINFO_produkty_nowa_wartosc{
+	display: block;
+	float: left;
+	font-size: 12px;
+	width: 25%;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.MEALSINFO_produkty .MEALSINFO_ingredients-table{
+	margin-left:15%; 
+	margin-right:15%;
+	width: 70%;
+	
+}
+
+.MEALSINFO_produkty .MEALSINFO_ingredients-table th, tr{
+text-align: center;
+font-size: 12px;
+	
+}
+
+.MealsINFO_textdiv{
+	display:block;
+	float:left;
+	width: 100%;
+	height: 200px;
+}
+
+.MealsINFO_textdiv .MealsINFO_textarea{
+	margin: 10%;
+	width: 80%;
+	height: 80%;
+	margin-top: 0;
+}
+
+.MEALSINFO_przycisk_prod_info{
+    height: 40px;
+    width: 35%;
+    display: block;
+    float: left;
+	margin-left: 10%;
+	margin-bottom: 20px;
+    
+}
+
+.MEALSINFO_przycisk_prod_info a{
+    width: 100%;
+    height: 40px;
+    border: 0px solid black;
+    background-color: white;;
+    color: black;
+    padding-bottom: 2px;
+    font-size: 14px;
+}

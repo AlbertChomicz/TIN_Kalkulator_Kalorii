@@ -1,0 +1,225 @@
+*
+{margin: 0 0 0 0;
+    padding: 0;
+      font-family: Arial;
+      box-sizing: border-box;
+  
+  }
+  
+  body {background-color: #424242}
+  
+  .header {
+  width: 100%;
+  height: 200px;
+  display: block;
+  background-color: #101010;
+  }
+  
+  .header .fota{
+  
+      width: 30%;
+      display: block;
+      float: left;
+      height: auto;
+  }
+
+  .header .tytul h1{
+    width: 100%;
+font-size:50px;
+color: white;
+font-family: "Anton";
+margin-top: 50px;
+font: bold;
+margin-right: 20px;
+
+margin-right:10%;
+}
+
+
+  
+#ananasy{
+      padding:20px;
+      width: 250px;
+      height: auto;
+  }
+  
+  .header .tytul{
+      display: block;
+      float: left;
+      width: 50%;
+      height: 200px;
+  
+  }
+  
+
+  
+  .header .logowanie{
+      width:20%;
+      padding-right: 30px;
+      height: 200px;
+      display:block;
+      float: left;
+      margin: 0 auto;
+      background:#101010;
+      color: white;
+      
+  }
+   .logowanie input, button{
+      height: 20px;
+      border: 1px solid #323232;
+      background-color: black;
+      color: white;
+      width:80%;
+      margin: 2px;
+  }
+
+
+
+  .logowanie input:hover, button:hover{
+    background:#323232;
+	border: 1px solid white;
+    color:white;
+    font-size: 12px;
+    transition: all 0.5s ease;
+  }
+
+
+  .logowanie p{
+    height: 20px;
+    margin-left:5px;
+  }
+  
+
+  .formularz{
+      color: white;
+      text-align: center;
+      padding-top: 10px;
+  }
+  
+  .formularz input{
+      width:20%;
+  }
+  
+  .bread_crump{
+      color: #330066;
+      padding-left: 20px;
+  }
+  
+  section {
+      background: #BBBBBB;
+  }
+  
+  
+  
+
+  
+       @media (max-width:800px){
+  
+          .header {
+              width: 100%;
+              height: 200px;
+              display: block;
+              background-color: #101010;
+              }
+              
+              .header .fota{
+              
+                  position: relative;
+                  width: 50%;
+
+                  display: block;
+                  float: left;
+                 
+                  height: 200px;
+              }
+              
+              #ananasy{
+                  margin-top: 10px;
+                  width: auto;
+                  height: 180px;
+              }
+              
+              .header .tytul{
+                  display: block;
+                  float: left;
+                  width: 0%;
+                  height: 200px;
+              }
+              
+              .header .tytul h1{
+              font-size:0px;
+              }
+              
+              .header .logowanie{
+                  width:50%;
+              
+                  height: 200px;
+                  display:block;
+                  float: left;
+          
+                  background:#101010;
+                  color: white;
+                  
+              }
+
+
+  
+  
+          }
+    
+      
+  img:hover {
+      border: 3px solid white;
+       border-radius:20px 20px;
+       transition: all 0.5s ease;
+  }
+  
+
+  
+  @media (max-width:520px){
+  
+    .header {
+        width: 100%;
+        height: 200px;
+        display: block;
+        background-color: #101010;
+        }
+        
+        .header .fota{
+            position: relative;
+            width: 50%;
+            display: block;
+            float: left;
+            height: 200px;
+        }
+        
+        #ananasy{
+            margin-top: 10px;
+            width: auto;
+            height:160px;
+        }
+        
+        .header .tytul{
+            display: block;
+            float: left;
+            width: 0%;
+            height: 200px;
+        }
+        
+        .header .tytul h1{
+        font-size:0px;
+        }
+        
+        .header .logowanie{
+            width:50%;
+        
+            height: 200px;
+            display:block;
+            float: left;
+    
+            background:#101010;
+            color: white;
+            
+        }
+
+    }

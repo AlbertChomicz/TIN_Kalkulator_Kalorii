@@ -1,0 +1,28 @@
+.MEALS_ProductSearch{
+    background-color: #969696;
+    width: 25%;
+    
+    display: block;
+    float: left;
+}
+
+.MEALS_ProductInfo{
+    background-color: #969696;
+    width: 50%;
+   height: auto;
+    display: block;
+    float: left;
+}
+.MEALS_ProductPhoto{
+    background-color: #969696;
+    width: 25%;
+    display: block;
+    float: left;
+}
+
+.MEALS_Adding{
+    background-color: #969696;
+    width: 75%;
+    display: block;
+    float: left;
+}

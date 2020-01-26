@@ -1,0 +1,239 @@
+
+
+
+/* CSS DO EDYCJI PRODUKTOW */
+.grid-container {
+    
+	height: 400px;
+	display: grid;
+	grid-template-columns: 10% 2% 2% 16% 16% 5% 16% 2% 15%;
+	grid-template-rows: 30px 5px 30px 5px 30px 5px 30px 5px 30px 5px 30px 5px 30px 5px 30px 5px 30px 5px 30px 5px 30px 5px 30px 5px 30px 5px 30px 5px;
+	justify-content: center;
+	
+}
+
+.productsadd{
+    background-color: #969696;
+    width: 100%;
+    height: 400px;
+    display: block;
+    float: left;
+
+}
+#form_area{
+	grid-area: 5 / 5 / 24 / 8
+}
+
+
+
+/*
+		<div class="Dodaj_produkt_label">  </div>
+		<div class="nazwa_label">  </div>
+		<div class="wegle_label">  </div>
+		<div class="białko_label">  </div>
+		<div class="tłuszcze_label">  </div>
+		<div class="kategoria_label">  </div>
+		<div class="zdjęcie_label">  </div>
+		
+		<div class="nazwa_label_error">  </div>
+		<div class="wegle_label_error">  </div>
+		<div class="białko_label_error">  </div>
+		<div class="tłuszcze_label_error">  </div>
+		<div class="kategoria_label_error">  </div>
+		<div class="zdjęcie_label_error">  </div>
+		*/
+		.Dodaj_produkt_label {
+			grid-row: 3;
+			grid-column: 4/8;
+			text-align: center;
+			font-size: 25px;
+		}
+		
+			.nazwa_label {
+			grid-row: 5;
+			grid-column: 4/5;
+			text-align: center;
+		}
+					.wegle_label {
+			grid-row: 7;
+			grid-column: 4/5;
+			text-align: center;
+		}
+					.bialko_label {
+			grid-row: 9;
+			grid-column: 4/5;
+			text-align: center;
+		}
+					.tluszcze_label {
+			grid-row: 11;
+			grid-column: 4/5;
+			text-align: center;
+		}
+					.kategoria_label {
+			grid-row: 13;
+			grid-column: 4/5;
+			text-align: center;
+		}
+					.zdjecie_label {
+			grid-row: 17;
+			grid-column: 4/5;
+			text-align: center;
+		}
+		
+		
+		#nazwa_label_error {
+			grid-row: 5;
+			grid-column: 7;
+		}
+		#wegle_label_error {
+			grid-row: 7;
+			grid-column: 7;
+		}
+		#bialko_label_error {
+			grid-row: 9;
+			grid-column: 7;
+		}
+		#tluszcze_label_error {
+			grid-row: 11;
+			grid-column: 7;
+		}
+		#kategoria_label_error {
+			grid-row: 13;
+			grid-column: 7;
+		}
+		#zdjecie_label_error {
+			grid-row: 17;
+			grid-column: 7;
+		}
+		
+		
+		#dodawanie_label_error {
+			grid-row: 21;
+			grid-column: 5;
+		}
+		
+		.error{
+			text-align: center;
+			color:red;
+			visibility: visible;
+		}
+		
+		
+		
+		.nazwa_label_input{
+			grid-row: 5;
+			grid-column: 5;
+			text-align: center;
+		
+		}
+		.wegle_label_input {
+			grid-row: 7;
+			grid-column: 5;
+			text-align: center;
+			
+		}
+		.bialko_label_input {
+			grid-row: 9;
+			grid-column: 5;
+			text-align: center;
+			
+		}
+		.tluszcze_label_input {
+			grid-row: 11;
+			grid-column: 5;
+			text-align: center;
+		
+		}
+		.kategoria_label_input {
+			grid-row: 13;
+			grid-column: 5;
+			text-align: center;
+	
+		}
+		.zdjecie_label_input {
+			grid-row: 17;
+			grid-column: 5;
+			text-align: center;
+			
+		}
+	.nazwa_label_input input, .wegle_label_input input, .bialko_label_input input, .tluszcze_label_input input, .zdjecie_label_input input{
+		
+		width:100%;
+		height:100%;
+	}
+	
+	.kategoria_label_input select{
+				width:100%;
+		height:100%;
+	}
+	
+	
+	
+	
+
+	
+	
+	
+	.PRODUKT_ADD_produkt_powrot {
+	grid-row: 19;
+	grid-column: 9;
+
+}
+
+.produkt_usun {
+	grid-row: 19;
+	grid-column: 10;
+	background: white;
+	border: 2px solid black;
+}
+
+
+
+.PRODUKT_ADD_produkt_dodaj{
+		grid-row: 19;
+	grid-column: 5;
+
+}
+
+.PRODUKT_ADD_produkt_powrot a{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	
+	color: black;
+}
+
+.PRODUKT_ADD_produkt_dodaj a{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	color: black;
+}
+
+.PROD_ADD_zdjecie_label_input{
+	background-color: #969696;
+}
+.PRODUCT_ADD_input{
+	background-color: black;
+}
+
+/* .produkt_wybierz a, .produkt_powrot a, .produkt_sortuj a, .produkt_edytuj a, .produkt_dodaj a, .produkt_usun a{
+    display: block;
+    float: left;
+    width: 100%;
+	height: 100%;
+    padding-top:2px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.7s ease;
+}
+
+.produkt_wybierz a:hover, .produkt_powrot a:hover, .produkt_sortuj  a:hover, .produkt_edytuj a:hover, .produkt_dodaj a:hover{
+	background:black;
+	border: 5px solid black;
+	color:white;
+	
+} */
+
+		

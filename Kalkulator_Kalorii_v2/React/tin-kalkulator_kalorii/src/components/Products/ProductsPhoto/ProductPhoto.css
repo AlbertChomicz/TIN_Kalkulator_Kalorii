@@ -1,0 +1,31 @@
+.przycisk_prod_photo{
+    height: 40px;
+    width: 40%;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    
+}
+.zdjecie{
+    width: 80%;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+#image{
+   
+    max-height: 100%;
+    height: auto;
+   width: auto;
+   max-width: 100%;
+    margin: 20px;
+}
+
+.przycisk_prod_photo a{
+    width: 100%;
+    height: 40px;
+    border: 0px solid black;
+    background-color: white;;
+    color: black;
+    padding-bottom: 2px;
+}

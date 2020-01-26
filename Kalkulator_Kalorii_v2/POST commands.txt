@@ -1,0 +1,43 @@
+http://localhost:8080/product/
+http://localhost:8080/meal/
+
+POST MEAL:
+    {
+        "name": "Obiadek",
+        "opis": "Opis obiadu",
+        "photoname": "nazwa_pliku.jpg",
+        "mapa": {
+        	"2":1,
+    		"1":2,
+		"3":2,
+		"7":2,
+		"6":2
+        }
+    }
+    
+    
+        {
+        "name": "Obiadek",
+        "opis": "nowy obiadek robimy tak",
+        "photoname": "marchewka.jpg",
+        "mapa": {
+        	"1":1,
+    	
+        }
+    }
+    
+    
+	
+	
+	
+
+	    {
+        "name": "Marchewka",
+        "carbohydrates": 2,
+        "protein": 3,
+        "fat": 5,
+        "category": 2,
+        "photoname": "marchewka.jpg"
+    
+    }
+    

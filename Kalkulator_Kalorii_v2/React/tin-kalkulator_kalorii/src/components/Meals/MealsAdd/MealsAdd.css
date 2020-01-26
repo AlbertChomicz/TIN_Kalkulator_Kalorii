@@ -1,0 +1,136 @@
+
+
+
+
+#MealsAddSRODKOWY{
+	width: 60%;
+	height: 600px;
+	display:block;
+	float:left;
+}
+
+.MealsAdd_nazwa_posilku_label {
+    width: 100%;
+    display:block;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.MealsAdd_nazwa_posilku_label input{
+    
+   
+    width: 60%;
+    height: 40px;
+
+}
+
+.MealsAdd_tablica_z_wartosciami{
+    width: 100%;
+    display: block;
+    float: left;
+    
+}
+.MealsAdd_ingredients-table {
+    width: 100%;
+}
+
+.MealsAdd_ingredients-table tr{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 5px;
+   
+}
+
+.MealsAdd_textdiv{
+    width: 100%;
+    height: 180px;
+    display: block;
+    float: left;
+}
+
+.MealsAdd_textarea{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 70%;
+}
+
+
+.MEALSAdd_produkty_nowa_wartosc{
+	display: block;
+	float: left;
+	font-size: 12px;
+	width: 25%;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+
+
+#MEalsAddPRAWY{
+	width: 40%;
+	height: 600px;
+	display:block;
+	float:left;
+}
+
+
+.MealsAdd_label_dodajzdjecie{
+    margin-top: 20px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.MealsAdd_zdjecie {
+    width: 80%;
+    height: 300px;
+    display: block;
+    float: left;
+    margin-left: 10%;
+}
+
+#MealsAdd_zdjecie_wczytane {
+    width: auto;
+    max-width: 100%;
+    height: 90%;
+}
+
+.MealsAdd_button {
+    widTH: 33%;
+    HEIGHT: 60PX;
+    display: block;
+    float: left;
+}
+.MealsAdd_button a{
+   
+    widTH: 100%;
+    HEIGHT: 100%;
+}
+
+.MealADD_a{
+    background-color: white;
+}
+
+.MEALSADD_productdelete {
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    height: 20px;
+    width: 60%;
+    vertical-align: auto;
+    text-align: center;
+    padding-top: 2px;
+    float: left;
+    border-radius: 15px;
+}
+
+.MealsAdd_zdjecie_label_input {
+    margin-bottom: 30px;
+}
+
